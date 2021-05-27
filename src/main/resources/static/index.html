@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!--    <link rel="stylesheet" type="text/css" href="/css/style.css"/>-->
+    <title>Homepage</title>
+</head>
+<body>
+<!--    <tr>-->
+<!--        <td><a href=""></a></td>-->
+<!--        <td><a href=""></a></td>-->
+<!--        <td><a href=""></a></td>-->
+<!--        <td><a href=""></a></td>-->
+<!--        <td><a href=""></a></td>-->
+<!--        <td><a href=""></a></td>-->
+<!--    </tr>-->
+<!--    </table>-->
+
+    <h1>Adicionar novo jogo</h1>
+    <form action="/api/jogos" id="formJogos" method="POST">
+        <p>Nome do time A: <input name="nomeTimeA" type="text"/></p>
+        <p>Gols do time A: <input name="golsTimeA" type="text"/></p>
+        <p>Nome do time B: <input name="nomeTimeB" type="text"/></p>
+        <p>Gols do time B: <input name="golsTimeB" type="text"/></p>
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset"/></p>
+    </form>
+
+    <script type='text/javascript' src="/js/main.js"></script>
+</body>
+</html>
